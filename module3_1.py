@@ -15,7 +15,7 @@ def string_info(string):
 
 def is_contains(string, list_to_search):
     count_call()
-    if string.lower() in str(list_to_search).lower():
+    if any(string.lower() in item.lower() for item in list_to_search):
         return True
     else:
         return False
