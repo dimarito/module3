@@ -8,6 +8,7 @@ data_structure = [
 ]
 
 
+# function count
 def calculate_structure_sum(data):
     sum_ = 0
     for item in data:
@@ -26,5 +27,6 @@ def calculate_structure_sum(data):
     return sum_
 
 
+# main
 result = calculate_structure_sum(data_structure)
 print(result)
